@@ -14,7 +14,7 @@ wf = wave.open(sys.argv[1], 'rb')
 # instantiate PyAudio (1)
 p = pyaudio.PyAudio()
 
-# define callback (2)
+# define callback (2) | https://people.csail.mit.edu/hubert/pyaudio/docs/#pyaudio.Stream.__init__
 def callback(in_data, frame_count, time_info, status):
     data = wf.readframes(frame_count)
     return (data, pyaudio.paContinue)

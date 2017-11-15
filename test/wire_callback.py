@@ -18,6 +18,8 @@ if sys.platform == 'darwin':
 
 p = pyaudio.PyAudio()
 
+# https://people.csail.mit.edu/hubert/pyaudio/docs/#pyaudio.Stream.__init__
+# https://people.csail.mit.edu/hubert/pyaudio/docs/#pacallbackreturncodes
 def callback(in_data, frame_count, time_info, status):
     return (in_data, pyaudio.paContinue)
 

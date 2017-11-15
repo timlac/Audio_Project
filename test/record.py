@@ -14,12 +14,13 @@ RATE = 44100
 RECORD_SECONDS = 5
 WAVE_OUTPUT_FILENAME = "output.wav"
 
-if sys.platform == 'darwin':
+if sys.platform == 'darwin': # os x
     CHANNELS = 1
 
-p = pyaudio.PyAudio()
+p = pyaudio.PyAudio() # instantiate pyaudio
 
-stream = p.open(format=FORMAT,
+# To record or play audio, open a stream on the desired device with the desired audio parameters using pyaudio.PyAudio.open() (2). This sets up a pyaudio.Stream to play or record audio.
+stream = p.open(format=FORMAT, 
                 channels=CHANNELS,
                 rate=RATE,
                 input=True,
@@ -43,5 +44,5 @@ wf = wave.open(WAVE_OUTPUT_FILENAME, 'wb')
 wf.setnchannels(CHANNELS)
 wf.setsampwidth(p.get_sample_size(FORMAT))
 wf.setframerate(RATE)
-wf.writeframes(b''.join(frames))
+wf.writeframes(b''.join(frames)) # https://stackoverflow.com/questions/6269765/what-does-the-b-character-do-in-front-of-a-string-literal
 wf.close()

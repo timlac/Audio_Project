@@ -9,7 +9,7 @@ import pyaudio
 import sys
 
 CHUNK = 1024
-WIDTH = 2
+WIDTH = 2 # number of bytes per sample | http://doc.sagemath.org/html/en/reference/misc/sage/media/wav.html
 CHANNELS = 2
 RATE = 44100
 RECORD_SECONDS = 5
@@ -19,8 +19,8 @@ if sys.platform == 'darwin':
 
 p = pyaudio.PyAudio()
 
-stream = p.open(format=p.get_format_from_width(WIDTH),
-                channels=CHANNELS,
+stream = p.open(format=p.get_format_from_width(WIDTH), # Returns a PortAudio format constant for the specified width.
+                channels=CHANNELS, 
                 rate=RATE,
                 input=True,
                 output=True,
