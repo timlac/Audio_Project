@@ -1,0 +1,11 @@
+libsndfile
+
+reading and writing file
+
+portaudio talks to hardware, soundcard
+
+libsndfile talks to the file system and helps you create compatible files.
+
+How to compute the level of a signal - the rms value of the signal (root mean squared)
+
+compute average over the buffer and the the square root, express in DB. 
