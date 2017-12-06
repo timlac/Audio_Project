@@ -6,8 +6,8 @@ import wave
 import time
 import sys
 
-import DB_METER
-import PROG_BAR
+import COMPUTE_RMS_DB
+from PROG_BAR import Meter
 
 
 
@@ -18,6 +18,7 @@ if len(sys.argv) < 2:
     sys.exit(-1)
 
 wf = wave.open(sys.argv[1], 'rb')
+
 def print_wf_info(wav):
     print(  'number of channels:'   +   str(wav.getnchannels()) + '\n'  +
             'sample width:'         +   str(wav.getsampwidth()) + '\n'  +
@@ -25,11 +26,8 @@ def print_wf_info(wav):
             'number of frames: '    +   str(wav.getnframes())   + '\n'  +
             'compression type: '    +   str(wav.getcomptype())  + '\n'  +
             'compression name:'     +   str(wav.getcompname())  + '\n'  +
-            'parameters: '          +   str(wav.getparams()) + '\n\n'# (nchannels, sampwidth, framerate, nframes, comptype, compname)
-    )
-
+            'parameters: '          +   str(wav.getparams()) + '\n\n'       ) # (nchannels, sampwidth, framerate, nframes, comptype, compname)
 print_wf_info(wf)
-
 
 # instantiate PyAudio (1)
 p = pyaudio.PyAudio()
@@ -43,9 +41,10 @@ p = pyaudio.PyAudio()
 def callback(in_data, frame_count, time_info, status):
     # print( in_data, frame_count, time_info, status )
     data = wf.readframes(frame_count)
-    # display_amplitude(data)
-    # DB_METER.print_frame(data)
-    DB_METER.get_rms(data)
+
+    rms_db = COMPUTE_RMS_DB.get_rms(data)
+    decibel_meter(rms = rms_db['rms'], db=rms_db['db'])
+    
     return (data, pyaudio.paContinue)
 
 # open stream using callback (3)
@@ -78,7 +77,7 @@ def pause_play():
 
 def choose_time():
     try:
-        desired_time = input("input the part of the song you want to start playing at")
+        desired_time = input("input the part of the song you want to start playing at. \n")
     except not desired_time or not desired_time.isnumeric():
             print("that is not a number!")
 
@@ -87,8 +86,16 @@ def choose_time():
     wf.readframes(location)
 
 
+# initiate dB meter
+decibel_meter = Meter(100)
+# for x in xrange(decibel_meter.total):
+#     decibel_meter.current += 1
+#     decibel_meter()
+#     time.sleep(0.1)
+# decibel_meter.done()
 
 # start the stream (4)
+
 stream.start_stream()
 
 

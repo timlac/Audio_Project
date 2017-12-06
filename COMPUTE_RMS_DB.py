@@ -10,30 +10,11 @@ import math
 import struct
 import sys
 
-import PROG_BAR
+# import PROG_BAR
 
 
 FORMAT = pyaudio.paInt16 # why is this neeeded ?
 SHORT_NORMALIZE = (1.0/32768.0) # ?
-
-toolbar_width = 40
-
-def print_frame(data):
-    type(data)
-
-# setup toolbar
-def display_amplitude(frames):
-    sys.stdout.write("[%s]" % (" " * toolbar_width))
-    sys.stdout.flush()
-    sys.stdout.write("\b" * (toolbar_width+1)) # return to start of line, after '['
-
-    for i in xrange(toolbar_width):
-        time.sleep(0.1) # do real work here
-        # update the bar
-        sys.stdout.write("-")
-        sys.stdout.flush()
-
-    sys.stdout.write("\n")
 
 
 def get_rms( block ):
@@ -57,11 +38,9 @@ def get_rms( block ):
         sum_squares += n*n
     rms = math.sqrt( sum_squares / count )
     # dB = 20 * log10(amplitude)
-    dB = 20 * math.log10(rms)
-    print( dB )
-
-
-    return dB #math.sqrt( sum_squares / count )
+    db = 20 * math.log10(rms)
+    # print( db )
+    return {'rms':rms, 'db':db } #math.sqrt( sum_squares / count )
 
 
 
