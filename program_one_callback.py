@@ -7,6 +7,12 @@ import time
 import sys
 import project_utils
 
+FORMAT = pyaudio.paInt16 # why is this neeeded ?
+SHORT_NORMALIZE = (1.0/32768.0) # ?
+
+
+
+
 print("playing my file")
 
 if len(sys.argv) < 2:
@@ -15,13 +21,13 @@ if len(sys.argv) < 2:
 
 wf = wave.open(sys.argv[1], 'rb')
 def print_wf_info(wav):
-    print(  wav.getnchannels(),
-            wav.getsampwidth()
-            wav.getframerate()
-            wav.getnframes()
-            wav.getcomptype()
-            wav.getcompname()
-            wav..getparams()
+    print(  'number of channels:'   +   str(wav.getnchannels()) + '\n'  +
+            'sample width:'         +   str(wav.getsampwidth()) + '\n'  +
+            'frame rate: '          +   str(wav.getframerate()) + '\n'  +
+            'number of frames: '    +   str(wav.getnframes())   + '\n'  +
+            'compression type: '    +   str(wav.getcomptype())  + '\n'  +
+            'compression name:'     +   str(wav.getcompname())  + '\n'  +
+            'parameters: '          +   str(wav.getparams()) + '\n\n'# (nchannels, sampwidth, framerate, nframes, comptype, compname)
     )
 
 print_wf_info(wf)
@@ -37,9 +43,11 @@ p = pyaudio.PyAudio()
 # pa.paContinue #: There is more audio data to come
 
 def callback(in_data, frame_count, time_info, status):
+    # print( in_data, frame_count, time_info, status )
     data = wf.readframes(frame_count)
     # display_amplitude(data)
-    project_utils.print_frame(data)
+    # project_utils.print_frame(data)
+    project_utils.get_rms(data)
     return (data, pyaudio.paContinue)
 
 # open stream using callback (3)
