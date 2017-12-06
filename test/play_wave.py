@@ -13,6 +13,7 @@ if len(sys.argv) < 2:
 
 # read only
 wf = wave.open(sys.argv[1], 'rb')
+# wf.setpos(60*44100) wave.getframerate())
 
 # instantiate PyAudio (1)
 p = pyaudio.PyAudio()
