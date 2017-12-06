@@ -6,10 +6,8 @@ import wave
 import time
 import sys
 
-import COMPUTE_RMS_DB
-from PROG_BAR import Meter
-
-
+import COMPUTE_RMS_DB 
+from COMPUTE_RMS_DB import Meter
 
 print("playing my file")
 
