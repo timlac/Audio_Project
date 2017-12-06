@@ -55,40 +55,35 @@ def pause_play():
     return
 
 def choose_time():
+    sample_rate = 44100
+
     try:
-        desired_time = input("input the part of the song you want to start playing at")
-    except not desired_time or not desired_time.isnumeric():
+        start_sek = int(input("input the part of the song you want to start playing at"))
+        end_sek = int(input("input the time you want to the song to stop playing at"))
+    except ValueError:
             print("that is not a number!")
 
-    location = desired_time * 44100
+    start = start_sek * sample_rate
+    end = end_sek * sample_rate
 
-    wf.readframes(location)
+    return start, end
 
+stream.stop_stream()
 
+start, end = choose_time()
+
+wf.setpos(start)
 
 # start the stream (4)
 stream.start_stream()
 
-
 # wait for stream to finish (5)
 while stream.is_active():
-    choose_time()
     pause_play()
-
-
-input("press any key to start stream again")
-
-
-stream.start_stream()
-
-# wait for stream to finish (5)
-while stream.is_active():
-    time.sleep(0.1)
 
 
 # stop stream (6)
 stream.stop_stream()
-
 
 stream.close()
 wf.close()
