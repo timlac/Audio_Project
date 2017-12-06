@@ -27,8 +27,10 @@ stream = p.open(format=p.get_format_from_width(wf.getsampwidth()),
                 output=True)
 
 def choose_time():
+    global wf
+
     try:
-        desired_time = input("input the part of the song you want to start playing at")
+        desired_time = int( input("input the part of the song you want to start playing at") )
     except not desired_time or not desired_time.isnumeric():
         print("that is not a number!")
 
@@ -40,16 +42,7 @@ def choose_time():
 # readframes() -- returns at most n frames of audio
 # en frame är en snapshot i tiden, left and right
 
-try:
-    desired_time = int(input("input the part of the song you want to start playing at"))
-except not desired_time or not isinstance(desired_time, int):
-    print("that is not a number!")
-
-location = (desired_time * 44100)
-
-# + end-tid !!!!!
-
-wf.setpos(location)
+choose_time()
 
 data = wf.readframes(CHUNK)
 
