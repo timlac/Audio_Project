@@ -1,9 +1,11 @@
+# -*- coding: utf-8 -*-
 """PyAudio Example: Play a wave file (callback version)."""
 
 import pyaudio
 import wave
 import time
 import sys
+import project_utils
 
 print("playing my file")
 
@@ -12,6 +14,18 @@ if len(sys.argv) < 2:
     sys.exit(-1)
 
 wf = wave.open(sys.argv[1], 'rb')
+def print_wf_info(wav):
+    print(  wav.getnchannels(),
+            wav.getsampwidth()
+            wav.getframerate()
+            wav.getnframes()
+            wav.getcomptype()
+            wav.getcompname()
+            wav..getparams()
+    )
+
+print_wf_info(wf)
+
 
 # instantiate PyAudio (1)
 p = pyaudio.PyAudio()
@@ -24,6 +38,8 @@ p = pyaudio.PyAudio()
 
 def callback(in_data, frame_count, time_info, status):
     data = wf.readframes(frame_count)
+    # display_amplitude(data)
+    project_utils.print_frame(data)
     return (data, pyaudio.paContinue)
 
 # open stream using callback (3)
