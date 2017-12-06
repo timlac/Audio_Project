@@ -5,11 +5,9 @@ import pyaudio
 import wave
 import time
 import sys
-import project_utils
 
-FORMAT = pyaudio.paInt16 # why is this neeeded ?
-SHORT_NORMALIZE = (1.0/32768.0) # ?
-
+import DB_METER
+import PROG_BAR
 
 
 
@@ -46,8 +44,8 @@ def callback(in_data, frame_count, time_info, status):
     # print( in_data, frame_count, time_info, status )
     data = wf.readframes(frame_count)
     # display_amplitude(data)
-    # project_utils.print_frame(data)
-    project_utils.get_rms(data)
+    # DB_METER.print_frame(data)
+    DB_METER.get_rms(data)
     return (data, pyaudio.paContinue)
 
 # open stream using callback (3)

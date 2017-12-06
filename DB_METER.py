@@ -1,16 +1,23 @@
 ############### TOOLBAR
 # python program_one_callback.py 121_prog_sooftish\ 1.wav
 
+from __future__ import print_function
+import sys
+import re
 import pyaudio
 import time
 import math
 import struct
 import sys
 
+import PROG_BAR
+
+
 FORMAT = pyaudio.paInt16 # why is this neeeded ?
 SHORT_NORMALIZE = (1.0/32768.0) # ?
 
-# toolbar_width = 40
+toolbar_width = 40
+
 def print_frame(data):
     type(data)
 
@@ -48,9 +55,13 @@ def get_rms( block ):
         # normalize it to 1.0
         n = sample * SHORT_NORMALIZE
         sum_squares += n*n
-    amp = math.sqrt( sum_squares / count )
-    print( amp )
-    return #math.sqrt( sum_squares / count )
+    rms = math.sqrt( sum_squares / count )
+    # dB = 20 * log10(amplitude)
+    dB = 20 * math.log10(rms)
+    print( dB )
+
+
+    return dB #math.sqrt( sum_squares / count )
 
 
 
