@@ -85,7 +85,7 @@ def choose_time():
 
 
 # initiate dB meter
-decibel_meter = Meter(100)
+decibel_meter = Meter()
 # for x in xrange(decibel_meter.total):
 #     decibel_meter.current += 1
 #     decibel_meter()
