@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5ee1704-3350-42ee-b394-8aecf4eea249" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/121_prog_sooftish 1.wav" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/callback_test.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/completed.wav" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/custom_signal.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/custom_widget.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/discovery.wav" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fiddle.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fiddle_calc.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fiddle_event_sender.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fiddle_events.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fiddle_qt.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fiddle_qt2.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/music_player.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/notes" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/progbar.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/progbar_tutorial.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/threading.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/toggle.py" afterPath="$PROJECT_DIR$/toggle.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PlayMusic.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SoundRecorder.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/program_one.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/program_one_callback.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/toggle.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,30 +18,46 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/project$fiddle_qt.coverage" NAME="fiddle_qt Coverage Results" MODIFIED="1512558190862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$exper.coverage" NAME="exper Coverage Results" MODIFIED="1512902125296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project$music_player.coverage" NAME="music_player Coverage Results" MODIFIED="1512569179630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project$main_kinda.coverage" NAME="main_kinda Coverage Results" MODIFIED="1512583664735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/project$fiddle.coverage" NAME="fiddle Coverage Results" MODIFIED="1512551161893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/project$fiddle_qt2.coverage" NAME="fiddle_qt2 Coverage Results" MODIFIED="1512568059364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$recordingny.coverage" NAME="recordingny Coverage Results" MODIFIED="1512907684405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$passing_messeges_adv.coverage" NAME="passing_messeges_adv Coverage Results" MODIFIED="1512739868795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project$progbar.coverage" NAME="progbar Coverage Results" MODIFIED="1512569597093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/project$fiddle_event_sender.coverage" NAME="fiddle_event_sender Coverage Results" MODIFIED="1512582542649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$fiddle.coverage" NAME="fiddle Coverage Results" MODIFIED="1512739065499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$fiddle_bufferingthreads.coverage" NAME="fiddle_bufferingthreads Coverage Results" MODIFIED="1512748274017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$fiddle_thread_2.coverage" NAME="fiddle_thread_2 Coverage Results" MODIFIED="1512737573145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project$custom_signal.coverage" NAME="custom_signal Coverage Results" MODIFIED="1512582532156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project$fiddle_calc.coverage" NAME="fiddle_calc Coverage Results" MODIFIED="1512558685854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/project$test.coverage" NAME="test Coverage Results" MODIFIED="1510145795337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$fiddle_thread.coverage" NAME="fiddle_thread Coverage Results" MODIFIED="1512736410570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$fiddle_thread_4.coverage" NAME="fiddle_thread_4 Coverage Results" MODIFIED="1512738305804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project$threading.coverage" NAME="threading Coverage Results" MODIFIED="1512558137665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$play_wave.coverage" NAME="play_wave Coverage Results" MODIFIED="1512549580609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/project$fiddle_events.coverage" NAME="fiddle_events Coverage Results" MODIFIED="1512582547479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$process_exit_status.coverage" NAME="process_exit_status Coverage Results" MODIFIED="1512738351721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$newfiddle.coverage" NAME="newfiddle Coverage Results" MODIFIED="1512749349868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/project$fiddle_thread_3.coverage" NAME="fiddle_thread_3 Coverage Results" MODIFIED="1512738029711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$savefile.coverage" NAME="savefile Coverage Results" MODIFIED="1512908148981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$fiddle_qt2.coverage" NAME="fiddle_qt2 Coverage Results" MODIFIED="1512568059364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$fiddle_event_sender.coverage" NAME="fiddle_event_sender Coverage Results" MODIFIED="1512582542649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$test.coverage" NAME="test Coverage Results" MODIFIED="1510145795337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project$sliderprogbar.coverage" NAME="sliderprogbar Coverage Results" MODIFIED="1512583368386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project$toggle.coverage" NAME="toggle Coverage Results" MODIFIED="1512595862650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$pause_thread.coverage" NAME="pause_thread Coverage Results" MODIFIED="1512761193367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project$progbar_tutorial.coverage" NAME="progbar_tutorial Coverage Results" MODIFIED="1512578224924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/project$play_wave.coverage" NAME="play_wave Coverage Results" MODIFIED="1512549580609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/project$passing_messeges.coverage" NAME="passing_messeges Coverage Results" MODIFIED="1512744422295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$passing_message_fiddle.coverage" NAME="passing_message_fiddle Coverage Results" MODIFIED="1512759117178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project$custom_widget.coverage" NAME="custom_widget Coverage Results" MODIFIED="1512584328874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/project$fiddle_events.coverage" NAME="fiddle_events Coverage Results" MODIFIED="1512582547479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$SoundRecorder.coverage" NAME="SoundRecorder Coverage Results" MODIFIED="1512991066417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project$fiddle_disk_space.coverage" NAME="fiddle_disk_space Coverage Results" MODIFIED="1512910074623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="toggle.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/toggle.py">
+      <file leaf-file-name="PlayMusic.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PlayMusic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+            <state relative-caret-position="357">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="e#105#119#0" expanded="true" />
               </folding>
@@ -61,12 +65,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="play_wave_callback.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/play_wave_callback.py">
+      <file leaf-file-name="program_one_callback_WITH_DB_METER.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/program_one_callback_WITH_DB_METER.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="19" />
+            <state relative-caret-position="524">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding>
+                <element signature="e#85#99#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SoundRecorder.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SoundRecorder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="record.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/record.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComputeRmsDB.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ComputeRmsDB.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+              <folding>
+                <element signature="e#83#120#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,11 +129,14 @@
       <find>square</find>
       <find>changevalue</find>
       <find>progressbar</find>
-      <find>print</find>
       <find>repaint</find>
       <find>ex</find>
       <find>set_song_pos</find>
       <find>sleep</find>
+      <find>load_buffers</find>
+      <find>file</find>
+      <find>print_function</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -106,8 +149,6 @@
         <option value="$PROJECT_DIR$/Record.py" />
         <option value="$PROJECT_DIR$/Wire.py" />
         <option value="$PROJECT_DIR$/test/play_wave.py" />
-        <option value="$PROJECT_DIR$/test/play_wave_callback.py" />
-        <option value="$PROJECT_DIR$/fiddle.py" />
         <option value="$PROJECT_DIR$/program_one.py" />
         <option value="$PROJECT_DIR$/callback_test.py" />
         <option value="$PROJECT_DIR$/program_one_callback.py" />
@@ -126,7 +167,29 @@
         <option value="$PROJECT_DIR$/slider_dialog.py" />
         <option value="$PROJECT_DIR$/ProgressDialog.py" />
         <option value="$PROJECT_DIR$/main_kinda.py" />
+        <option value="$PROJECT_DIR$/DOUBLE_BUFFERING.py" />
+        <option value="$PROJECT_DIR$/test/play_wave_callback.py" />
+        <option value="$PROJECT_DIR$/fiddle_thread.py" />
+        <option value="$PROJECT_DIR$/fiddle_thread_2.py" />
+        <option value="$PROJECT_DIR$/fiddle_thread_3.py" />
+        <option value="$PROJECT_DIR$/fiddle_thread_4.py" />
+        <option value="$PROJECT_DIR$/process_exit_status.py" />
+        <option value="$PROJECT_DIR$/fiddle.py" />
+        <option value="$PROJECT_DIR$/passing_messeges_adv.py" />
+        <option value="$PROJECT_DIR$/passing_messeges.py" />
+        <option value="$PROJECT_DIR$/fiddle_bufferingthreads.py" />
+        <option value="$PROJECT_DIR$/test/newfiddle.py" />
+        <option value="$PROJECT_DIR$/passing_message_fiddle.py" />
+        <option value="$PROJECT_DIR$/pause_thread.py" />
+        <option value="$PROJECT_DIR$/exper.py" />
         <option value="$PROJECT_DIR$/toggle.py" />
+        <option value="$PROJECT_DIR$/recordingny.py" />
+        <option value="$PROJECT_DIR$/opup.py" />
+        <option value="$PROJECT_DIR$/savefile.py" />
+        <option value="$PROJECT_DIR$/fiddle_disk_space.py" />
+        <option value="$PROJECT_DIR$/COMPUTE_RMS_DB.py" />
+        <option value="$PROJECT_DIR$/PlayMusic.py" />
+        <option value="$PROJECT_DIR$/SoundRecorder.py" />
       </list>
     </option>
   </component>
@@ -168,14 +231,19 @@
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="__MACOSX" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,8 +263,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.toggle">
-    <configuration name="custom_widget" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.SoundRecorder">
+    <configuration name="SoundRecorder" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -209,13 +277,13 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="project" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/custom_widget.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SoundRecorder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="fiddle_events" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="exper" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -228,13 +296,13 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="project" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fiddle_events.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exper.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="main_kinda" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="fiddle_disk_space" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -247,13 +315,13 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="project" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_kinda.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fiddle_disk_space.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="sliderprogbar" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="recordingny" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -266,13 +334,13 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="project" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SliderDialog.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recordingny.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="toggle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="savefile" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -285,26 +353,26 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="project" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/toggle.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/savefile.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.fiddle_events" />
-      <item index="1" class="java.lang.String" itemvalue="Python.sliderprogbar" />
-      <item index="2" class="java.lang.String" itemvalue="Python.main_kinda" />
-      <item index="3" class="java.lang.String" itemvalue="Python.custom_widget" />
-      <item index="4" class="java.lang.String" itemvalue="Python.toggle" />
+      <item index="0" class="java.lang.String" itemvalue="Python.exper" />
+      <item index="1" class="java.lang.String" itemvalue="Python.SoundRecorder" />
+      <item index="2" class="java.lang.String" itemvalue="Python.recordingny" />
+      <item index="3" class="java.lang.String" itemvalue="Python.savefile" />
+      <item index="4" class="java.lang.String" itemvalue="Python.fiddle_disk_space" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.toggle" />
-        <item index="1" class="java.lang.String" itemvalue="Python.custom_widget" />
-        <item index="2" class="java.lang.String" itemvalue="Python.main_kinda" />
-        <item index="3" class="java.lang.String" itemvalue="Python.sliderprogbar" />
-        <item index="4" class="java.lang.String" itemvalue="Python.fiddle_events" />
+        <item index="0" class="java.lang.String" itemvalue="Python.SoundRecorder" />
+        <item index="1" class="java.lang.String" itemvalue="Python.fiddle_disk_space" />
+        <item index="2" class="java.lang.String" itemvalue="Python.savefile" />
+        <item index="3" class="java.lang.String" itemvalue="Python.recordingny" />
+        <item index="4" class="java.lang.String" itemvalue="Python.exper" />
       </list>
     </recent_temporary>
   </component>
@@ -325,28 +393,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="25" width="1861" height="1055" extended-state="6" />
+    <frame x="73" y="503" width="1861" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13130252" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="82" y="490" width="1815" height="125" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23692308" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="82" y="490" width="1815" height="125" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13443527" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1262762" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39915967" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39832088" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -364,146 +433,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/wire_half.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program_one.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/error.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/system_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program_one_callback.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/play_wave_callback.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/play_wave.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/wire_callback.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/record.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/wire_full.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/wire_half.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program_one.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/error.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/system_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/play_wave.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/play_wave_callback.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/wire_callback.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/wire_full.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/wire_half.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/record.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Play.py" />
     <entry file="file://$PROJECT_DIR$/Play.py" />
     <entry file="file://$PROJECT_DIR$/Record.py" />
@@ -529,24 +458,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/record.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/wire_callback.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fiddle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -558,133 +473,105 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/callback_test.py" />
+    <entry file="file://$PROJECT_DIR$/program_one.py" />
+    <entry file="file://$PROJECT_DIR$/threading.py" />
+    <entry file="file://$PROJECT_DIR$/fiddle_qt.py" />
+    <entry file="file://$PROJECT_DIR$/fiddle_calc.py" />
+    <entry file="file://$PROJECT_DIR$/music_player.py" />
+    <entry file="file://$PROJECT_DIR$/progbar.py" />
+    <entry file="file://$PROJECT_DIR$/custom_signal.py" />
+    <entry file="file://$PROJECT_DIR$/fiddle_qt2.py" />
+    <entry file="file://$PROJECT_DIR$/custom_widget.py" />
+    <entry file="file://$PROJECT_DIR$/SliderDialog.py" />
+    <entry file="file://$PROJECT_DIR$/ProgressDialog.py" />
+    <entry file="file://$PROJECT_DIR$/main_kinda.py" />
+    <entry file="file://$PROJECT_DIR$/fiddle_event_sender.py" />
+    <entry file="file://$PROJECT_DIR$/fiddle_events.py" />
+    <entry file="file://$PROJECT_DIR$/progbar_tutorial.py" />
     <entry file="file://$PROJECT_DIR$/test/play_wave.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
+        <state relative-caret-position="532">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/program_one.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threading.py" />
-    <entry file="file://$PROJECT_DIR$/program_one_callback.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fiddle_qt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fiddle_calc.py" />
-    <entry file="file://$PROJECT_DIR$/music_player.py" />
-    <entry file="file://$PROJECT_DIR$/progbar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="100" column="24" lean-forward="false" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom_signal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fiddle_qt2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom_widget.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="131" column="24" lean-forward="false" selection-start-line="131" selection-start-column="17" selection-end-line="131" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SliderDialog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProgressDialog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main_kinda.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fiddle_event_sender.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/DOUBLE_BUFFERING.py" />
     <entry file="file://$PROJECT_DIR$/test/play_wave_callback.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="304">
+          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fiddle_events.py">
+    <entry file="file://$PROJECT_DIR$/fiddle_thread.py" />
+    <entry file="file://$PROJECT_DIR$/test/newfiddle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="114">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/progbar_tutorial.py">
+    <entry file="file://$PROJECT_DIR$/fiddle_thread_4.py" />
+    <entry file="file://$PROJECT_DIR$/program_one_callback.py" />
+    <entry file="file://$PROJECT_DIR$/passing_messeges.py" />
+    <entry file="file://$PROJECT_DIR$/fiddle_thread_3.py" />
+    <entry file="file://$PROJECT_DIR$/fiddle_thread_2.py" />
+    <entry file="file://$PROJECT_DIR$/process_exit_status.py" />
+    <entry file="file://$PROJECT_DIR$/passing_messeges_adv.py" />
+    <entry file="file://$PROJECT_DIR$/fiddle_bufferingthreads.py" />
+    <entry file="file://$PROJECT_DIR$/exper.py" />
+    <entry file="file://$PROJECT_DIR$/pause_thread.py" />
+    <entry file="file://$PROJECT_DIR$/opup.py" />
+    <entry file="file://$PROJECT_DIR$/passing_message_fiddle.py" />
+    <entry file="file://$PROJECT_DIR$/thread_event.py" />
+    <entry file="file://$PROJECT_DIR$/recordingny.py" />
+    <entry file="file://$PROJECT_DIR$/savefile.py" />
+    <entry file="file://$PROJECT_DIR$/fiddle_disk_space.py" />
+    <entry file="file://$PROJECT_DIR$/program_one_callback_WITH_DB_METER.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-302">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="524">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="e#85#99#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toggle.py">
+    <entry file="file://$PROJECT_DIR$/ComputeRmsDB.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+        <state relative-caret-position="405">
+          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <folding>
+            <element signature="e#83#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlayMusic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="e#105#119#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoundRecorder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/record.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
